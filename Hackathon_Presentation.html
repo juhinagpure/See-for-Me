@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>See-for-Me Pitch Deck</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <!-- Sleek Dark Theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css" id="theme">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 { text-transform: none; color: #fff; font-weight: bold; }
+        .accent { color: #e7ad52; } /* Nice gold/orange accent color */
+        .tech-badge { 
+            display: inline-block; 
+            background: #222; 
+            border: 1px solid #e7ad52;
+            padding: 15px 25px; 
+            border-radius: 8px; 
+            margin: 10px; 
+            font-size: 0.7em; 
+            box-shadow: 0 4px 15px rgba(231, 173, 82, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <section>
+                <h1 style="font-size: 3.5em; white-space: nowrap;">👁️ See-for-Me</h1>
+                <h3>Hands-Free <span class="accent">Edge-AI</span> Accessibility</h3>
+                <p style="color: #888; margin-top: 50px; font-size: 0.7em;">Use Arrow Keys (← →) to Navigate</p>
+            </section>
+
+            <!-- Slide 2 -->
+            <section>
+                <h2>The <span class="accent">Problem</span></h2>
+                <ul style="line-height: 2; margin-top: 40px; font-size: 0.9em;">
+                    <li>Visually impaired users need AI to navigate their personal spaces.</li>
+                    <li>Current tools require sending <strong>private photos</strong> to massive cloud servers.</li>
+                    <li>This is a huge privacy risk and fails without a strong internet connection.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 3 -->
+            <section>
+                <h2>Our <span class="accent">Solution</span></h2>
+                <ul style="line-height: 2; margin-top: 40px; font-size: 0.9em;">
+                    <li><strong>100% Local Edge AI:</strong> Zero cloud computing. Absolute privacy.</li>
+                    <li><strong>Hands-Free UI:</strong> Full Voice-In and Voice-Out interaction.</li>
+                    <li><strong>Offline Capability:</strong> Works anywhere, anytime.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 4 -->
+            <section>
+                <h2>The <span class="accent">Tech Stack</span></h2>
+                <div style="margin-top: 50px;">
+                    <span class="tech-badge">🧠 Google PaliGemma (Vision)</span>
+                    <span class="tech-badge">🎤 OpenAI Whisper (Ear/STT)</span>
+                    <br>
+                    <span class="tech-badge">🔊 Google TTS (Mouth)</span>
+                    <span class="tech-badge">💻 Python & Gradio (UI)</span>
+                </div>
+            </section>
+
+            <!-- Slide 5 -->
+            <section>
+                <h2>Live <span class="accent">Demonstration</span></h2>
+                <p style="color: #aaa; margin-top: 40px;">Switching to live web application...</p>
+                <div style="font-size: 3em; margin-top:30px;">📸 🎤 🔊</div>
+            </section>
+
+            <!-- Slide 6 -->
+            <section>
+                <h2>Future <span class="accent">Roadmap</span></h2>
+                <ul style="line-height: 2; margin-top: 40px; font-size: 0.9em;">
+                    <li>Native iOS & Android mobile applications.</li>
+                    <li><strong>Siri / OS-level</strong> shortcut integrations.</li>
+                    <li>Wearable hardware (Smart Glasses / Bluetooth buttons).</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h1 style="font-size: 4em;">Thank You!</h1>
+                <h3 style="color: #aaa;">Ready for Q&A</h3>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'zoom', // Smooth zoom animations
+            backgroundTransition: 'fade',
+        });
+    </script>
+</body>
+</html>
